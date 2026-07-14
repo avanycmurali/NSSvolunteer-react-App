@@ -118,13 +118,20 @@ const AddNss = () => {
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">hours</label>
-                                <input type="date" className="form-control" name="hours" value={input.hours} onChange={inputHandler} />
+                                <input type="text" className="form-control" name="hours" value={input.hours} onChange={inputHandler} />
 
                             </div>
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
                                 <label htmlFor="" className="form-label">address</label>
                                 <input type="text" className="form-control" name="address" value={input.address} onChange={inputHandler} />
+
+                            </div>
+
+                            <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                                <label htmlFor="" className="form-label">unit Number</label>
+                                <input type="text" className="form-control" name="unitNumber" value={input.unitNumber} onChange={inputHandler} />
 
                             </div>
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
