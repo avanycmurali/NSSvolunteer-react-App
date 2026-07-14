@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewNss = () => {
     const[data,changeData]=useState([])
@@ -22,6 +23,7 @@ const ViewNss = () => {
     )
   return (
     <div>
+        <NavBar/>
 
 <table class="table">
                 <thead>
